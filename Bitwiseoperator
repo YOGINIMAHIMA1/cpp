@@ -1,0 +1,61 @@
+Bitwise operator  works on binary number.
+it has only one unary operator which works on single operand.
+it is of 6 types are as follows:
+-  Bitwise AND Operator(&)- it works on two operand .
+both 1 means 1
+any 0 means 0
+A  |  B |    &
+ 1 |  1 |    1
+ 1 |   0|    0
+ 0 | 1  |    0
+ 0 | 0  |    0
+ 
+ 
+ for example-     a=9, b=12
+ 
+   binary value of 9=  (9)2=     (1001)2
+   binary vale of 12=  (12)2=   (1100)2
+   
+   
+   A & B=     1 0 0 1
+              1 1 0 0
+              &
+            ____________
+              1 0 0 0    =8
+              
+              
+              A & B= 8
+              
+              
+              
+              
+              Bitwise OR Operator -
+               Syntax = A | B
+               
+               
+               Any 1-  1
+               both 0- 0
+               
+               
+               A    B     |
+               1    1     1
+               1    0     1
+               0    1     1
+               0    0     0
+               
+               
+               
+               
+               A=3 ,B=2 ,A|B
+               
+               (3)2=   11
+               (2)2=   10
+                      |
+                      _____
+                      1 1    = 3
+                     _______
+                     
+                     
+                     
+               
+               
