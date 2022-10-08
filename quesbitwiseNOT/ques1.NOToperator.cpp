@@ -9,12 +9,12 @@ int main()
   int e=34;
   int f= -50;
   
-  cout<<a<<endl;
-  cout<<b<<endl;
-  cout<<c<<endl;
-  cout<<d<<endl;
-  cout<<e<<endl;
-  cout<<f<<endl;
+  cout<<~a<<endl;
+  cout<<~b<<endl;
+  cout<<~c<<endl;
+  cout<<~d<<endl;
+  cout<<~e<<endl;
+  cout<<~f<<endl;
   
   return 0;
 }
