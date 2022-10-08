@@ -1,0 +1,23 @@
+Bitwise NOT Bitwise Operator-
+Syntax - ~A
+~A implies inversion of every single bit in A. so ,let say
+A= 31;
+(31)2- 2  | 31
+       2  |  15  1
+       2  |   7  1
+       2  |   3  1
+          |  1  1
+          
+          (31)2=   11111
+         as this 31 is of integer type  means 2 byte means 16 bit
+          0000 0000 0001 1111
+      ~31 1111 1111 1110 0000
+      
+      first bit is 1 means value is negative for finding decimal negative value there are two methods as follow-
+        
+        
+    method 1->    -2^0 -2^1 -2^2 -2^3 -2^4 -1 = -1 -2 -4-8-16-1= -32
+        
+        Method 2 ->  find 2's complement  1111 1111 1110 0000
+                          2's-----        0000 0000 0010 0000    = 2^5= 32
+                          ~a=-32
