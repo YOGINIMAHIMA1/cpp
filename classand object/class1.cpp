@@ -26,7 +26,8 @@ class Box
     cin>>Side;
     cout<<"Area :"<<endl;
     cin>>Area ;
-  };
+  }
+};
   int main()
   {
     Box.B;
