@@ -6,17 +6,17 @@
 using namespace std;
 class Box
 {
-  int BoxNumber;
+  int BoxNumber;//instance variable
   public:
   void GetBox()
   {
-    int BoxShape=19 ;
-    cout<<"boxshape :"<<endl;
-    cin>>BoxShape;
+    int BoxShape=19 ;//local variable
+    cout<<"Boxshape :"<<endl;
+    
   }
   void ShowBox()
   {
-    cout<<"Enter BoxNumber:"<<endl;
+    cout<<"Enter BoxNumber :";<<endl;
     cin>>BoxNumber ;
   }
 };
