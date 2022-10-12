@@ -9,7 +9,7 @@ class A
      cout<<"b:"<<b<<endl;
    }
 };
-  int A ::b=10;
+  int A ::b ;=10;
     void main()
     {
       A:: b=100;
